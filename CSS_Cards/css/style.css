@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import "header.css";
+@import "cards.css";
+@import "mediaquery.css";
+@import "hover.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.4s ease-in;
+}
+html{
+  font-size: 100%;
+  
+  
+}
+
+:root {
+  --bg-color: #ffffff;
+  --color: #333333;
+  --secondary: #e0e0e0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(246, 247, 248, 0.2) 0%,
+    rgba(255, 232, 197, 0.2) 100%
+  );
+  font-family: "Rubik", sans-serif;
+ 
+}

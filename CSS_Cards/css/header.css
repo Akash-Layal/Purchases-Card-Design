@@ -1,0 +1,37 @@
+header {
+  width: auto;
+  height: 7vh;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 0 5rem;
+}
+.breadcrumbs {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  list-style: none;
+}
+
+.breadcrumbs h2 {
+  font-family: "Rubik", sans-serif;
+  display: inline;
+  margin: 0 0.2rem;
+  font-weight: 600;
+}
+
+.breadcrumbs h2::after {
+  content: "/";
+  font-weight: 300;
+  color: var(--secondary);
+  margin: 0 1.5rem;
+}
+
+.breadcrubms__item a {
+  font-weight: 500;
+  text-decoration: underline;
+  color: var(--color);
+  text-decoration-color: var(--color);
+}
